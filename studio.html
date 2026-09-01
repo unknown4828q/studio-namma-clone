@@ -12,11 +12,6 @@
     <link rel="stylesheet" href="./footer.css">
 
     <style>
-
-        /* =========================================
-           STUDIO HERO
-        ========================================= */
-
         .studioHero {
             min-height: 100vh;
             width: 100%;
@@ -42,12 +37,6 @@
             font-size: 14px;
             letter-spacing: 4px;
         }
-
-
-        /* =========================================
-           INTRO
-        ========================================= */
-
         .studioIntro {
             min-height: 100vh;
             padding: 100px 25px;
@@ -73,12 +62,6 @@
             letter-spacing: -2px;
             margin-bottom: 50px;
         }
-
-
-        /* =========================================
-           STUDIO IMAGE / PLAYGROUND
-        ========================================= */
-
         .studioPlayground {
             min-height: 100vh;
             padding: 100px 25px;
@@ -135,12 +118,6 @@
         .studioImageRight.show {
             transform: translateX(0) rotate(0);
         }
-
-
-        /* =========================================
-           STORY
-        ========================================= */
-
         .studioStory {
             min-height: 100vh;
             padding: 120px 25px;
@@ -163,12 +140,6 @@
         .studioStoryText .strong {
             font-weight: 700;
         }
-
-
-        /* =========================================
-           TEAM
-        ========================================= */
-
         .studioTeam {
             padding: 120px 25px;
             background: rgb(228 228 228);
@@ -232,12 +203,6 @@
             font-size: 12px;
             letter-spacing: 2px;
         }
-
-
-        /* =========================================
-           FUEL / VALUES
-        ========================================= */
-
         .studioFuel {
             min-height: 100vh;
             background: #111;
@@ -313,12 +278,6 @@
             line-height: 1.5;
             color: #aaa;
         }
-
-
-        /* =========================================
-           FINAL CTA
-        ========================================= */
-
         .studioCTA {
             min-height: 90vh;
             padding: 80px 25px;
@@ -353,11 +312,6 @@
             font-size: 15px;
             letter-spacing: 3px;
         }
-
-
-        /* =========================================
-           MOBILE
-        ========================================= */
 
         @media (max-width: 768px) {
 
@@ -429,10 +383,6 @@
 <body>
 
 
-    <!-- =========================================
-         HERO
-    ========================================== -->
-
     <section class="studioHero">
 
         <h1 class="animate">
@@ -448,13 +398,6 @@
         </p>
 
     </section>
-
-
-
-    <!-- =========================================
-         INTRO
-    ========================================== -->
-
     <section class="studioIntro">
 
         <div class="studioLabel">
@@ -484,12 +427,6 @@
         </div>
 
     </section>
-
-
-
-    <!-- =========================================
-         PLAYGROUND
-    ========================================== -->
 
     <section class="studioPlayground">
 
@@ -536,12 +473,6 @@
 
     </section>
 
-
-
-    <!-- =========================================
-         STORY
-    ========================================== -->
-
     <section class="studioStory">
 
         <div class="studioLabel">
@@ -574,12 +505,6 @@
         </div>
 
     </section>
-
-
-
-    <!-- =========================================
-         TEAM
-    ========================================== -->
 
     <section class="studioTeam">
 
@@ -679,12 +604,6 @@
         </div>
 
     </section>
-
-
-
-    <!-- =========================================
-         FUEL
-    ========================================== -->
 
     <section class="studioFuel">
 
@@ -853,13 +772,6 @@
         </div>
 
     </section>
-
-
-
-    <!-- =========================================
-         CTA
-    ========================================== -->
-
     <section class="studioCTA">
 
         <div class="studioCTATop">
@@ -889,24 +801,9 @@
     </section>
 
 
-
-    <!-- =========================================
-         EXISTING NAVIGATION
-    ========================================== -->
-
     <script src="./nav.js"></script>
 
-
-    <!-- =========================================
-         STUDIO ANIMATIONS
-    ========================================== -->
-
     <script>
-
-        /* -----------------------------------------
-           EXISTING ANIMATE SYSTEM
-        ----------------------------------------- */
-
         let studioTexts =
             document.querySelectorAll(".animate");
 
@@ -934,13 +831,6 @@
             studioObserver.observe(element);
 
         });
-
-
-
-        /* -----------------------------------------
-           STUDIO IMAGE ANIMATION
-        ----------------------------------------- */
-
         let studioImages =
             document.querySelectorAll(
                 ".studioImageLeft, .studioImageRight"
@@ -970,12 +860,6 @@
             imageObserver.observe(image);
 
         });
-
-
-
-        /* -----------------------------------------
-           FUEL ANIMATION
-        ----------------------------------------- */
 
         let fuelItems =
             document.querySelectorAll(".fuelItem");
@@ -1008,9 +892,7 @@
     </script>
 
 
-    <!-- =========================================
-         YOUR EXISTING FOOTER
-    ========================================== -->
+   
 
     <script src="./footer.js"></script>
 
